@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.17.0.1" name="Menu" guid="752838eb6d18b370d0d5de01d286e7dd97f6a679" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+	<parameter name="x" type="int">200</parameter>
+	<parameter name="y" type="int">300</parameter>
+	<parameter name="width" type="int">100</parameter>
+	<parameter name="height" type="int">50</parameter>
+	<parameter name="fontSize" type="int">16</parameter>
+	<parameter name="buttonsNames" type="array" array_type="string"/>
+	<parameter name="controlledNode" type="node"/>
+</property>

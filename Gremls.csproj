@@ -45,12 +45,12 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="data/ButtonExit.cs"/>
-		<Compile Include="data/ButtonContinue.cs"/>
-		<Compile Include="data/ButtonStart.cs"/>
+		<Compile Include="data/csharp_template/FP_controller/components/FirstPersonController.cs"/>
+		<Compile Include="data/Global.cs"/>
+		<Compile Include="data/Menu.cs"/>
+		<Compile Include="data/Database.cs"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="data\csharp_template\FP_controller\components\FirstPersonController.cs"/>
 		<Compile Include="source\AppEditorLogic.cs"/>
 		<Compile Include="source\AppSystemLogic.cs"/>
 		<Compile Include="source\AppWorldLogic.cs"/>

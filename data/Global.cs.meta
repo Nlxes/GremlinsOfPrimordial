@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>056aff8c0b7b1e211056132eb340826af1df9a94</guid>
+	<type>component</type>
+	<hash>d8b66042</hash>
+	<runtimes>
+		<runtime id="056aff8c0b7b1e211056132eb340826af1df9a94" name="Global.cs" link="0"/>
+		<runtime id="4134c54a4b204e3019a0dc9c13e79323fde47192" name="Global.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

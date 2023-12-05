@@ -591,7 +591,7 @@
 		<render_vignette_mask_power>1</render_vignette_mask_power>
 		<render_virtual_resolution>-1 -1</render_virtual_resolution>
 		<render_vr_emulation>0</render_vr_emulation>
-		<render_vsync>1</render_vsync>
+		<render_vsync>0</render_vsync>
 		<render_water_anisotropy>1</render_water_anisotropy>
 		<render_water_culling_aggressive>1</render_water_culling_aggressive>
 		<render_water_culling_frustum_padding>0.100000001</render_water_culling_frustum_padding>

@@ -606,7 +606,7 @@
 		<render_vignette_mask_power>1</render_vignette_mask_power>
 		<render_virtual_resolution>-1 -1</render_virtual_resolution>
 		<render_vr_emulation>0</render_vr_emulation>
-		<render_vsync>1</render_vsync>
+		<render_vsync>0</render_vsync>
 		<render_water_anisotropy>1</render_water_anisotropy>
 		<render_water_culling_aggressive>1</render_water_culling_aggressive>
 		<render_water_culling_frustum_padding>0.100000001</render_water_culling_frustum_padding>
@@ -919,27 +919,23 @@
 			<transform>0.999999880791 0 0 0.0 0 0.999945163727 0 0.0 0 0 0.999945223331 0.0 -0.196285955986 8.08729905898 3.04555989211 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="1374197136" name="MenuButtons">
+			<properties>
+				<property parent="752838eb6d18b370d0d5de01d286e7dd97f6a679" guid="62a0ca71f76ec3acb960b617f29089b83fae2c8f">
+					<parameter name="buttonsNames">
+						<value index="0">Start</value>
+						<value index="1">Continue</value>
+						<value index="2">Exit</value>
+					</parameter>
+					<parameter name="controlledNode">712370186</parameter>
+				</property>
+			</properties>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.19959036005 -0.112645492324 3.01434490561 1.0</transform>
-			<node type="NodeDummy" id="1811895854" name="StartButton">
-				<properties>
-					<property parent="1427a6a309ec6179e4c251f3d75d739d5d6d90ec" guid="d5fdcde1e3ed37c54be21ab1ad8c3c1d6215c522">
-						<parameter name="controlNode">1374197136</parameter>
-					</property>
-				</properties>
-				<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -5.57315910865 0.312645493899 -0.0225507979259 1.0</transform>
-			</node>
-			<node type="NodeDummy" id="1484790966" name="ExitButton">
-				<properties>
-					<property parent="bcdf2b9277694a40bd959f829cdb1a11ceff1417" guid="7a7eb6bc667ac6d7b3837a2cb54a767aab1920a9"/>
-				</properties>
-				<transform>0.999999880791 3.49243356457e-10 3.49243800546e-10 0.0 3.49243467479e-10 8.94069557944e-07 -0.999999880791 0.0 -3.49243661768e-10 0.999999821186 8.94069501101e-07 0.0 5.57315910865 -0.312645493899 0.0225507979259 1.0</transform>
-			</node>
-			<node type="NodeDummy" id="1597679541" name="ContiniueButton">
-				<properties>
-					<property parent="4b319662d8aada08b60ba652b1a422212f392a27" guid="fbd47a80cf5ba3b912aa70f05ae09bc42b1b357d"/>
-				</properties>
-				<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -5.57315910865 0.312645493899 -0.0225507979259 1.0</transform>
-			</node>
+		</node>
+		<node type="NodeDummy" id="712370186" enabled="0" name="Global">
+			<properties>
+				<property parent="4134c54a4b204e3019a0dc9c13e79323fde47192" guid="ecd341e7a255433f955f529d38046ad0614b4695"/>
+			</properties>
+			<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -6.31489316971 0.199998093551 2.55634690327 1.0</transform>
 		</node>
 	</editor>
 	<console>

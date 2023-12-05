@@ -61,15 +61,32 @@ public class Menu : Component
 
 		// // add combobox to current gui
 		// gui.AddChild(topMenu, Gui.ALIGN_OVERLAP);
-		WidgetMenuBox Managing = new WidgetMenuBox();
-		Managing.AddItem("Managing");
-		Managing.FontSize = fontSize;
-//		gui.AddChild(Managing, Gui.ALIGN_OVERLAP);
+		WidgetMenuBox Menu = new WidgetMenuBox();
+		Menu.AddItem("Menu");
+		Menu.FontSize = fontSize;
+		
+		WidgetMenuBox Team = new WidgetMenuBox();
+		Team.AddItem("Team");
+		Team.FontSize = fontSize;
+		
+		WidgetMenuBox Tournaments = new WidgetMenuBox();
+		Tournaments.AddItem("Tournaments");
+		Tournaments.FontSize = fontSize;
+
+		WidgetMenuBox News = new WidgetMenuBox();
+		News.AddItem("News");
+		News.FontSize = fontSize;
 
 		WidgetMenuBar topMenu = new WidgetMenuBar(0, 0);
-		topMenu.AddItem("Managing");
+		topMenu.AddItem("Menu");
+		topMenu.AddItem("Team");
+		topMenu.AddItem("Tournaments");
+		topMenu.AddItem("News");
 		topMenu.FontSize = fontSize;
-		topMenu.SetItemMenu(1,Managing);
+		topMenu.SetItemMenu(0, Menu);
+		topMenu.SetItemMenu(1, Team);
+		topMenu.SetItemMenu(2, Tournaments);
+		topMenu.SetItemMenu(3, News);
 		gui.AddChild(topMenu, Gui.ALIGN_OVERLAP);
 	}
 

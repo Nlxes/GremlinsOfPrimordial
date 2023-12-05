@@ -1,0 +1,4 @@
+Виджеты - 
+https://developer.unigine.com/ru/docs/2.17/code/gui/ui/ui_widgets?words=widget%2Cwidgetlll%2Cwidgetll&autotranslate=ru#highlight
+
+Unigine.WidgetMenuBar Class - https://developer.unigine.com/ru/docs/2.17/api/library/gui/class.widgetmenubar?rlang=cs&autotranslate=ru

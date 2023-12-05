@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>ddd5c8b774cd192c8241e7431955a6a3b5991fc9</guid>
+	<type>texture</type>
+	<hash>c1c3d6e2</hash>
+	<runtimes>
+		<runtime id="ddd5c8b774cd192c8241e7431955a6a3b5991fc9" name="ddd5c8b774cd192c8241e7431955a6a3b5991fc9.texture" link="0" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">R16F</parameter>
+		<parameter type="string" name="image_type">2d array</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

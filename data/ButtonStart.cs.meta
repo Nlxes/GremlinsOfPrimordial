@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>607a3e8d26481cd670aeaa5d6dc04fa63c59a4fe</guid>
+	<type>component</type>
+	<hash>06f84eca</hash>
+	<runtimes>
+		<runtime id="607a3e8d26481cd670aeaa5d6dc04fa63c59a4fe" name="ButtonStart.cs" link="0"/>
+		<runtime id="1427a6a309ec6179e4c251f3d75d739d5d6d90ec" name="ButtonStart.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

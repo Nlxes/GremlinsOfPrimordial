@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>9c738166b3e7a0ba59fea64257600af062eb79c5</guid>
+	<type>material_graph</type>
+	<hash>8c944337</hash>
+	<runtimes>
+		<runtime id="9c738166b3e7a0ba59fea64257600af062eb79c5" name="fon_mash.mgraph" link="0"/>
+		<runtime id="524091089dbb62dba4b859443ccdf94d8a9e583f" name="fon_mash" link="1" type="5"/>
+	</runtimes>
+</asset>

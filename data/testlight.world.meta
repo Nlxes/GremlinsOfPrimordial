@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>2b2d2c86805d80a8703054ea1409a28f775c5e84</guid>
+	<type>world</type>
+	<hash>96c868b5</hash>
+	<runtimes>
+		<runtime id="2b2d2c86805d80a8703054ea1409a28f775c5e84" name="testlight.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

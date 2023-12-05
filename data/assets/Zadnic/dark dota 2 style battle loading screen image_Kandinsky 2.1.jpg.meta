@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>98caa49c0d7a19f6c3d54a985c5cf5027f7841c3</guid>
+	<type>texture</type>
+	<hash>b945593</hash>
+	<runtimes>
+		<runtime id="98caa49c0d7a19f6c3d54a985c5cf5027f7841c3" name="dark dota 2 style battle loading screen image_Kandinsky 2.1.jpg" link="0" type="6"/>
+		<runtime id="be5f06076c573623797bdcbb0b2077c00bc8fc46" name="dark dota 2 style battle loading screen image_Kandinsky 2.1.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

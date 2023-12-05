@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>07a23bc9a30d0b612ebfcb1d092b04a8f01f6fc0</guid>
+	<type>file</type>
+	<hash>ef3f0e46</hash>
+	<runtimes>
+		<runtime id="07a23bc9a30d0b612ebfcb1d092b04a8f01f6fc0" name="editor.boot" link="0"/>
+	</runtimes>
+</asset>

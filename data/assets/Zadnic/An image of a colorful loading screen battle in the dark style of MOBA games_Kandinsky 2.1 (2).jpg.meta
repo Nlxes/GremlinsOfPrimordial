@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>dba756560fb78c32cf89c032b3458ac60d96f5f5</guid>
+	<type>texture</type>
+	<hash>9bf7d997</hash>
+	<runtimes>
+		<runtime id="dba756560fb78c32cf89c032b3458ac60d96f5f5" name="An image of a colorful loading screen battle in the dark style of MOBA games_Kandinsky 2.1 (2).jpg" link="0" type="6"/>
+		<runtime id="7e111819a8a3a26c5fb4606d9290666c18060ed0" name="An image of a colorful loading screen battle in the dark style of MOBA games_Kandinsky 2.1 (2).texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

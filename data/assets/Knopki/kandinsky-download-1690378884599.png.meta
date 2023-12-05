@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>8185fe650a12b1e1231b4679a1d47a98fce1b1ec</guid>
+	<type>texture</type>
+	<hash>f51e087b</hash>
+	<runtimes>
+		<runtime id="8185fe650a12b1e1231b4679a1d47a98fce1b1ec" name="kandinsky-download-1690378884599.png" link="0" type="6"/>
+		<runtime id="9b95f3948169209841f254104b3cc5a860d5045b" name="kandinsky-download-1690378884599.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

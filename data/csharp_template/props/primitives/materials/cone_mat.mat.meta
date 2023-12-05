@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.17.0.1">
+	<guid>afc043b92b3d17629ccf6ed32f0a396d5a08b34d</guid>
+	<type>material</type>
+	<hash>2cfd0ebb</hash>
+	<runtimes>
+		<runtime id="afc043b92b3d17629ccf6ed32f0a396d5a08b34d" name="cone_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

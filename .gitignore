@@ -11,3 +11,4 @@ unigine_editor.cfg
 *.cache
 *.modified
 *.tlog
+.fake

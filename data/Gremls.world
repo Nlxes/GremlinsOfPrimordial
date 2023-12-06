@@ -652,271 +652,122 @@
 			<user/>
 			<unigine_editor/>
 		</data>
-		<node type="NodeDummy" id="1368583642" name="lighting">
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
-			<node type="LightWorld" id="824505625" name="sun">
-				<scattering>1</scattering>
-				<disable_angle>100</disable_angle>
-				<shadow_height>60</shadow_height>
-				<shadow_width>80</shadow_width>
-				<shadow_zfar>100</shadow_zfar>
-				<shadow_cascade_mode>0</shadow_cascade_mode>
-				<num_shadow_cascades>3</num_shadow_cascades>
-				<shadow_cascade_borders>0.0200000014 0.0800000057 0.200000003</shadow_cascade_borders>
-				<color_mode>1</color_mode>
-				<shadow_resolution>5</shadow_resolution>
-				<shadow_bias>1</shadow_bias>
-				<shadow_normal_bias>0.75</shadow_normal_bias>
-				<mode>1</mode>
-				<shadow_filter_mode>-1</shadow_filter_mode>
-				<shadow_filter>1</shadow_filter>
-				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-				<shadow_penumbra>0.200000003</shadow_penumbra>
-				<shadow_screen_space>1</shadow_screen_space>
-				<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
-				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
-				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
-				<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
-				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
-				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
-				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-				<shadow_color_texture_mode>1</shadow_color_texture_mode>
-				<shadow_screen_space_softness>0</shadow_screen_space_softness>
-				<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
-				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-				<lens_flare_enabled>1</lens_flare_enabled>
-				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
-				<lens_flare_intensity>1</lens_flare_intensity>
-				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
-				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
-				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
-				<lens_flare_use_light_color>1</lens_flare_use_light_color>
-				<lens_flare_billboards num="31">
-					<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
-					<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
-					<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
-					<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
-					<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
-					<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
-					<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
-					<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
-					<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
-					<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
-					<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
-					<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
-					<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
-					<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-					<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-					<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
-					<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
-					<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
-					<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
-					<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
-					<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
-					<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
-					<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-					<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
-				</lens_flare_billboards>
-				<transform>-0.445857909251 0.347743025425 0.824632634527 0.0 -0.733440383572 0.385959469588 -0.559309575738 0.0 -0.512846083417 -0.854317060708 0.0829780002551 0.0 -108.703028882 -3.87013329363 -6.88662789407 1.0</transform>
+		<node type="NodeDummy" id="1239164550" enabled="0" name="Zadnic">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.180586296502 4.68735694431 -1.3565454403e-18 1.0</transform>
+			<node type="NodeDummy" id="1368583642" name="lighting">
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.180586296502 -4.68735694431 1.3565454403e-18 1.0</transform>
+				<node type="LightWorld" id="824505625" name="sun">
+					<scattering>1</scattering>
+					<disable_angle>100</disable_angle>
+					<shadow_height>60</shadow_height>
+					<shadow_width>80</shadow_width>
+					<shadow_zfar>100</shadow_zfar>
+					<shadow_cascade_mode>0</shadow_cascade_mode>
+					<num_shadow_cascades>3</num_shadow_cascades>
+					<shadow_cascade_borders>0.0200000014 0.0800000057 0.200000003</shadow_cascade_borders>
+					<color_mode>1</color_mode>
+					<shadow_resolution>5</shadow_resolution>
+					<shadow_bias>1</shadow_bias>
+					<shadow_normal_bias>0.75</shadow_normal_bias>
+					<mode>1</mode>
+					<shadow_filter_mode>-1</shadow_filter_mode>
+					<shadow_filter>1</shadow_filter>
+					<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+					<shadow_penumbra>0.200000003</shadow_penumbra>
+					<shadow_screen_space>1</shadow_screen_space>
+					<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
+					<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+					<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+					<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
+					<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+					<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+					<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+					<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+					<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+					<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+					<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+					<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+					<shadow_color_texture_mode>1</shadow_color_texture_mode>
+					<shadow_screen_space_softness>0</shadow_screen_space_softness>
+					<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
+					<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+					<lens_flare_enabled>1</lens_flare_enabled>
+					<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+					<lens_flare_intensity>1</lens_flare_intensity>
+					<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+					<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+					<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+					<lens_flare_use_light_color>1</lens_flare_use_light_color>
+					<lens_flare_billboards num="31">
+						<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+						<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+						<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+						<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+						<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+						<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+						<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+						<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+						<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+						<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+						<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+						<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+						<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+						<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+						<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+						<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+						<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+						<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+						<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+						<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+						<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+						<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+						<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+						<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+						<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+						<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+					</lens_flare_billboards>
+					<transform>-0.445857909251 0.347743025425 0.824632634527 0.0 -0.733440383572 0.385959469588 -0.559309575738 0.0 -0.512846083417 -0.854317060708 0.0829780002551 0.0 -108.703028882 -3.87013329363 -6.88662789407 1.0</transform>
+				</node>
 			</node>
-		</node>
-		<node type="ObjectMeshStatic" id="987716704" immovable="1" name="Fon">
-			<streaming_mode_vram>0</streaming_mode_vram>
-			<streaming_mode_ram>0</streaming_mode_ram>
-			<mesh_name>guid://488b3ae59969cbd536c66af91e54df4dfcdedc6c</mesh_name>
-			<surface name="plane" intersection="1" material="9385f5e7ba9fd967b60a85734ddab6b7a370c679"/>
-			<transform>-1.92055726051 -6.70751232335e-10 0.00689245620742 0.0 0.00452534342185 0 1.26097011566 0.0 -3.49245632414e-10 0.999999046326 0 0.0 -0.361172593003 0 -2.7130908806e-18 1.0</transform>
-		</node>
-		<node type="PlayerSpectator" id="1250762328" name="PlayerSpectator">
-			<collision>1</collision>
-			<collision_mask>0x1</collision_mask>
-			<collision_radius>0.5</collision_radius>
-			<min_velocity>2</min_velocity>
-			<max_velocity>4</max_velocity>
-			<min_theta_angle>-89.9000015</min_theta_angle>
-			<max_theta_angle>89.9000015</max_theta_angle>
-			<acceleration>4</acceleration>
-			<damping>8</damping>
-			<turning>90</turning>
-			<znear>0.300000012</znear>
-			<zfar>100000</zfar>
-			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
-			<is_oblique_frustum>0</is_oblique_frustum>
-			<is_main>1</is_main>
-			<is_listener>1</is_listener>
-			<controlled>1</controlled>
-			<transform>-0.999999165535 -1.78813863272e-07 1.51793301484e-06 0.0 1.51793324221e-06 5.96046092483e-08 0.999999344349 0.0 -1.78813863272e-07 0.99999922514 5.96046021428e-08 0.0 0 10 0 1.0</transform>
-		</node>
-		<node type="ObjectMeshStatic" id="2006208689" immovable="1" name="Tma">
-			<streaming_mode_vram>0</streaming_mode_vram>
-			<streaming_mode_ram>0</streaming_mode_ram>
-			<mesh_name>guid://8ca8b40d02cdba2e18c829b9ac1b65645c1b4c8f</mesh_name>
-			<surface name="plane" material="155dedd56c4c31cf34572d01093c371661fe9a97"/>
-			<transform>2.60227966309 9.08829456137e-10 9.08828290402e-10 0.0 7.59777574189e-10 1.1670283584e-06 -2.17549824715 0.0 -1.66849312144e-10 0.477744579315 2.56282191913e-07 0.0 0 -0.625286111378 0 1.0</transform>
-		</node>
-		<node type="LightProj" id="772311096" enabled="0" name="LightProj">
-			<penumbra>1</penumbra>
-			<attenuation_distance>10</attenuation_distance>
-			<shape>2 1 0.200000003</shape>
-			<shape_type>0</shape_type>
-			<fov>60</fov>
-			<znear>0.100000001</znear>
-			<ies_relative_to_fov>0</ies_relative_to_fov>
-			<color_mode>1</color_mode>
-			<color_temperature>11578.7998</color_temperature>
-			<intensity>1.14473999</intensity>
-			<shadow_bias>1</shadow_bias>
-			<shadow_distance>40</shadow_distance>
-			<fade_distance>10</fade_distance>
-			<mode>1</mode>
-			<shadow_filter_mode>-1</shadow_filter_mode>
-			<shadow_filter>1</shadow_filter>
-			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-			<shadow_penumbra>0</shadow_penumbra>
-			<shadow_screen_space>0</shadow_screen_space>
-			<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
-			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
-			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
-			<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
-			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
-			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
-			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-			<shadow_color_texture_mode>0</shadow_color_texture_mode>
-			<shadow_screen_space_softness>0</shadow_screen_space_softness>
-			<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
-			<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-			<baked_depth_texture>guid://a91422c30e7e320f54d6018ff9e0dfc8b63f2535</baked_depth_texture>
-			<lens_flare_enabled>0</lens_flare_enabled>
-			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
-			<lens_flare_intensity>1</lens_flare_intensity>
-			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
-			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
-			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
-			<lens_flare_use_light_color>1</lens_flare_use_light_color>
-			<lens_flare_billboards num="31">
-				<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
-				<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
-				<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
-				<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
-				<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
-				<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
-				<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
-				<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
-				<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
-				<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-				<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-				<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
-				<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
-				<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
-				<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
-				<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
-				<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-				<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-				<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
-			</lens_flare_billboards>
-			<transform>0.999999880791 0 0 0.0 0 0.0526918917894 -0.99860316515 0.0 0 0.998603701591 0.0526919215918 0.0 -0.196285955986 8.08729905898 3.04555989211 1.0</transform>
-		</node>
-		<node type="LightOmni" id="921230128" enabled="0" name="LightOmni_1">
-			<attenuation_distance>10</attenuation_distance>
-			<shape>2 1 0.200000003</shape>
-			<shape_type>0</shape_type>
-			<color_mode>1</color_mode>
-			<shadow_bias>1</shadow_bias>
-			<shadow_distance>40</shadow_distance>
-			<fade_distance>10</fade_distance>
-			<mode>1</mode>
-			<shadow_filter_mode>-1</shadow_filter_mode>
-			<shadow_filter>1</shadow_filter>
-			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
-			<shadow_penumbra>0</shadow_penumbra>
-			<shadow_screen_space>0</shadow_screen_space>
-			<shadow_screen_space_num_rays>3</shadow_screen_space_num_rays>
-			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
-			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
-			<shadow_screen_space_noise_step>1</shadow_screen_space_noise_step>
-			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
-			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
-			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
-			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
-			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
-			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
-			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
-			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
-			<shadow_color_texture_mode>0</shadow_color_texture_mode>
-			<shadow_screen_space_softness>0</shadow_screen_space_softness>
-			<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
-			<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
-			<baked_depth_texture>guid://51f9f9ca3fb256241d7b9f6e8c60bdc2106c39a8</baked_depth_texture>
-			<lens_flare_enabled>0</lens_flare_enabled>
-			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
-			<lens_flare_intensity>1</lens_flare_intensity>
-			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
-			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
-			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
-			<lens_flare_use_light_color>1</lens_flare_use_light_color>
-			<lens_flare_billboards num="31">
-				<billboard name="flare_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
-				<billboard name="flare_1" offset="0" size="0.289999992" rotate="1" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
-				<billboard name="flare_2" offset="0.0529999994" size="0.860000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
-				<billboard name="flare_3" offset="0.0900000036" size="0.49000001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
-				<billboard name="flare_4" offset="0.122000001" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_5" offset="0.203999996" size="0.330000013" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_6" offset="0.432999998" size="0.649999976" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_7" offset="0.477999985" size="1.5" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_8" offset="0.52700001" size="0.810000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_9" offset="0.600000024" size="0.409999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_10" offset="0.615999997" size="0.569999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
-				<billboard name="flare_11" offset="0.652999997" size="0.779999971" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_12" offset="0.717999995" size="1.71000004" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
-				<billboard name="flare_13" offset="0.754999995" size="1.13999999" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
-				<billboard name="flare_14" offset="0.967000008" size="0.540000021" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
-				<billboard name="flare_15" offset="0.338999987" size="0.289999992" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
-				<billboard name="flare_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-				<billboard name="flare_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
-				<billboard name="flare_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
-				<billboard name="flare_20" offset="0.245199993" size="0.610000014" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
-				<billboard name="flare_21" offset="-0.1184" size="0.800000012" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
-				<billboard name="flare_22" offset="-0.170000002" size="0.435000002" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
-				<billboard name="flare_23" offset="-0.223599985" size="0.660000026" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_24" offset="-0.340499997" size="1.39499998" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
-				<billboard name="flare_25" offset="-0.474399984" size="0.944999993" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
-				<billboard name="flare_26" offset="-0.899999976" size="2.2650001" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
-				<billboard name="flare_27" offset="0.845000029" size="3.19000006" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-				<billboard name="flare_28" offset="1" size="7.78999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
-				<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
-				<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
-			</lens_flare_billboards>
-			<transform>0.999999880791 0 0 0.0 0 0.999945163727 0 0.0 0 0 0.999945223331 0.0 -0.196285955986 8.08729905898 3.04555989211 1.0</transform>
+			<node type="ObjectMeshStatic" id="987716704" immovable="1" name="Fon">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://488b3ae59969cbd536c66af91e54df4dfcdedc6c</mesh_name>
+				<surface name="plane" intersection="1" material="9385f5e7ba9fd967b60a85734ddab6b7a370c679"/>
+				<transform>-1.92055726051 -6.70751232335e-10 0.00689245620742 0.0 0.00452534342185 0 1.26097011566 0.0 -3.49245632414e-10 0.999999046326 0 0.0 -0.180586296502 -4.68735694431 -1.3565454403e-18 1.0</transform>
+			</node>
+			<node type="PlayerSpectator" id="1250762328" name="PlayerSpectator">
+				<collision>1</collision>
+				<collision_mask>0x1</collision_mask>
+				<collision_radius>0.5</collision_radius>
+				<min_velocity>2</min_velocity>
+				<max_velocity>4</max_velocity>
+				<min_theta_angle>-89.9000015</min_theta_angle>
+				<max_theta_angle>89.9000015</max_theta_angle>
+				<acceleration>4</acceleration>
+				<damping>8</damping>
+				<turning>90</turning>
+				<znear>0.300000012</znear>
+				<zfar>100000</zfar>
+				<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+				<is_oblique_frustum>0</is_oblique_frustum>
+				<is_main>1</is_main>
+				<is_listener>1</is_listener>
+				<controlled>1</controlled>
+				<transform>-0.999999165535 -1.78813863272e-07 1.51793301484e-06 0.0 1.51793324221e-06 5.96046092483e-08 0.999999344349 0.0 -1.78813863272e-07 0.99999922514 5.96046021428e-08 0.0 0.180586296502 5.31264305569 1.3565454403e-18 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2006208689" immovable="1" name="Tma">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8ca8b40d02cdba2e18c829b9ac1b65645c1b4c8f</mesh_name>
+				<surface name="plane" material="155dedd56c4c31cf34572d01093c371661fe9a97"/>
+				<transform>2.60227966309 9.08829456137e-10 9.08828290402e-10 0.0 7.59777574189e-10 1.1670283584e-06 -2.17549824715 0.0 -1.66849312144e-10 0.477744579315 2.56282191913e-07 0.0 0.180586296502 -5.31264305569 1.3565454403e-18 1.0</transform>
+			</node>
 		</node>
 		<node type="NodeDummy" id="1374197136" name="MenuButtons">
 			<properties>
@@ -926,7 +777,8 @@
 						<value index="1">Continue</value>
 						<value index="2">Exit</value>
 					</parameter>
-					<parameter name="controlledNode">712370186</parameter>
+					<parameter name="globalNode">712370186</parameter>
+					<parameter name="startNewNode">549462090</parameter>
 				</property>
 			</properties>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.19959036005 -0.112645492324 3.01434490561 1.0</transform>
@@ -936,6 +788,20 @@
 				<property parent="4134c54a4b204e3019a0dc9c13e79323fde47192" guid="ecd341e7a255433f955f529d38046ad0614b4695"/>
 			</properties>
 			<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -6.31489316971 0.199998093551 2.55634690327 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="549462090" enabled="0" name="StarNewGame">
+			<properties>
+				<property parent="843e884db0d5c9b2240dc12de9c484a491b15d40" guid="7b1cc9f15bc2e230b6a720d1b2481920f254bb14">
+					<parameter name="chooseTeam">440931105</parameter>
+				</property>
+			</properties>
+			<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -4.64410388173 0.200000955152 4.66390719704 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="440931105" enabled="0" name="ChooseTeam">
+			<properties>
+				<property parent="ab3c279e8208007f67748b3ef9bee22a32b2ee0d" guid="3c7e93172e94330995517ef7947e162e436ad302"/>
+			</properties>
+			<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -4.0338504217 0.200000955364 5.46474968534 1.0</transform>
 		</node>
 	</editor>
 	<console>

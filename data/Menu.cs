@@ -13,7 +13,9 @@ public class Menu : Component
 	public int height = 50;
 	public int fontSize = 16;
 	public List<string> buttonsNames = null;
-	public Node controlledNode = null;
+	public Node globalNode = null;
+	public Node startNewNode = null;
+	public Node continueNode = null;
 	private WidgetButton buttonStart = null;
 	private WidgetButton buttonContinue = null;
 	private WidgetButton buttonExit = null;
@@ -23,7 +25,7 @@ public class Menu : Component
 	public void StartNewGame()
 	{
 		Unigine.Console.WriteLine("ssssss");
-		controlledNode.Enabled = true;
+		globalNode.Enabled = true;
 		gui.RemoveChild(buttonExit);
 		gui.RemoveChild(buttonContinue);
 		gui.RemoveChild(buttonStart);
@@ -31,6 +33,10 @@ public class Menu : Component
 
 		Unigine.Console.WriteLine(Global.ChoosenTeam);
 		Global.nickNamesList.AddRange(Database.nicks);
+		startNewNode.Enabled = true;
+
+
+		// нужно добавить проверку создать команды по новой илди использовать бля хз ебал врот
 		PreFight pickStage = new PreFight();
 		pickStage.createMeta();
 		for (int i = 0; i < 50; i++)
@@ -48,46 +54,38 @@ public class Menu : Component
 			Team team = new Team(60, 99);
 			Global.teamList.Add(team.name, team);
 		}
-		// WidgetComboBox topMenu = new WidgetComboBox(gui);
-		// topMenu.SetPosition(0, 0);
+
+
+// все что ниже это тип мейнменю
+//--------------------------------------------------------------------
+		// WidgetMenuBox Menu = new WidgetMenuBox();
+		// Menu.AddItem("Menu");
+		// Menu.FontSize = fontSize;
+		
+		// WidgetMenuBox Team = new WidgetMenuBox();
+		// Team.AddItem("Team");
+		// Team.FontSize = fontSize;
+		
+		// WidgetMenuBox Tournaments = new WidgetMenuBox();
+		// Tournaments.AddItem("Tournaments");
+		// Tournaments.FontSize = fontSize;
+
+		// WidgetMenuBox News = new WidgetMenuBox();
+		// News.AddItem("News");
+		// News.FontSize = fontSize;
+
+		// WidgetMenuBar topMenu = new WidgetMenuBar(0, 0);
+		// topMenu.AddItem("Menu");
+		// topMenu.AddItem("Team");
+		// topMenu.AddItem("Tournaments");
+		// topMenu.AddItem("News");
 		// topMenu.FontSize = fontSize;
-
-		// // add items
-		// topMenu.AddItem("item 0");
-		// topMenu.AddItem("item 1");
-		// topMenu.AddItem("item 2");
-
-		// topMenu.AddCallback(Gui.CALLBACK_INDEX.CHANGED, () => Unigine.Console.OnscreenMessageLine($"Combobox: {topMenu.GetCurrentItemText()}"));
-
-		// // add combobox to current gui
+		// topMenu.SetItemMenu(0, Menu);
+		// topMenu.SetItemMenu(1, Team);
+		// topMenu.SetItemMenu(2, Tournaments);
+		// topMenu.SetItemMenu(3, News);
 		// gui.AddChild(topMenu, Gui.ALIGN_OVERLAP);
-		WidgetMenuBox Menu = new WidgetMenuBox();
-		Menu.AddItem("Menu");
-		Menu.FontSize = fontSize;
-		
-		WidgetMenuBox Team = new WidgetMenuBox();
-		Team.AddItem("Team");
-		Team.FontSize = fontSize;
-		
-		WidgetMenuBox Tournaments = new WidgetMenuBox();
-		Tournaments.AddItem("Tournaments");
-		Tournaments.FontSize = fontSize;
-
-		WidgetMenuBox News = new WidgetMenuBox();
-		News.AddItem("News");
-		News.FontSize = fontSize;
-
-		WidgetMenuBar topMenu = new WidgetMenuBar(0, 0);
-		topMenu.AddItem("Menu");
-		topMenu.AddItem("Team");
-		topMenu.AddItem("Tournaments");
-		topMenu.AddItem("News");
-		topMenu.FontSize = fontSize;
-		topMenu.SetItemMenu(0, Menu);
-		topMenu.SetItemMenu(1, Team);
-		topMenu.SetItemMenu(2, Tournaments);
-		topMenu.SetItemMenu(3, News);
-		gui.AddChild(topMenu, Gui.ALIGN_OVERLAP);
+//--------------------------------------------------------------------
 	}
 
 	public void ContinueGame() { }

@@ -10,9 +10,11 @@ public class Global : Component
 
 	public static int currentLvl = 1;
 	public static int WinnerPoints = 11000;
+	public static int ChosenTournamentId = -1;
+	public static string FirstName = "";
+	public static string SecondName = "";
 	public static string ChoosenTeam = "";
 	public static string NextEnemyTeam = "";
-	public static int ChosenTournamentId = -1;
 	public static Dictionary<string, Team> teamList = new Dictionary<string, Team>();
 	public static List<Tournament> tournamentList = new List<Tournament>();
 	public static DateTime Date = new DateTime(2015, 12, 29);

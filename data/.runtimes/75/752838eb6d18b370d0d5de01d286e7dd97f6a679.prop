@@ -6,5 +6,7 @@
 	<parameter name="height" type="int">50</parameter>
 	<parameter name="fontSize" type="int">16</parameter>
 	<parameter name="buttonsNames" type="array" array_type="string"/>
-	<parameter name="controlledNode" type="node"/>
+	<parameter name="globalNode" type="node"/>
+	<parameter name="startNewNode" type="node"/>
+	<parameter name="continueNode" type="node"/>
 </property>

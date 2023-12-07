@@ -11,13 +11,16 @@ public class ManageMenu : Component
 
 	private void Init()
 	{
-		// write here code to be called on component initialization
-		WidgetWindow windowAbout = new WidgetWindow("Choose the team", 0, 0)
-		{
-			Width = 500,
-			Height = 500
-		};
-		WidgetMenuBox Menu = new WidgetMenuBox();
+        // write here code to be called on component initialization
+        WidgetWindow windowAbout = new WidgetWindow("Azazaz", 100, 100)
+        {
+            Width = 500,
+            Height = 500,
+            Moveable = true,
+            Sizeable = true
+        };
+        WidgetMenuBox Menu = new WidgetMenuBox();
+		WidgetLabel testTExt = new WidgetLabel();
 
 		Menu.AddItem("Save");
 		Menu.AddItem("Load");
@@ -28,7 +31,8 @@ public class ManageMenu : Component
 
 		WidgetMenuBox Team = new WidgetMenuBox();
 		Team.AddItem("About");
-		Team.AddCallback(Gui.CALLBACK_INDEX.CLICKED, () => { if (Menu.CurrentItemText == "About") Engine.Quit(); });
+		//windowAbout.AddChild(testTExt);
+		Team.AddCallback(Gui.CALLBACK_INDEX.CLICKED, () => { if (Team.CurrentItemText == "About") gui.AddChild(windowAbout, Gui.ALIGN_OVERLAP); });
 		Team.AddItem("Manage Team");
 		Team.AddItem("Manage Personal");
 

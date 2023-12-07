@@ -8,35 +8,59 @@ public class ManageMenu : Component
 {
 	public int fontSize = 16;
 	Gui gui = Gui.GetCurrent();
+
 	private void Init()
 	{
 		// write here code to be called on component initialization
+		WidgetWindow windowAbout = new WidgetWindow("Choose the team", 0, 0)
+		{
+			Width = 500,
+			Height = 500
+		};
 		WidgetMenuBox Menu = new WidgetMenuBox();
-		Menu.AddItem("Menu");
+
+		Menu.AddItem("Save");
+		Menu.AddItem("Load");
+		Menu.AddItem("Settings");
+		Menu.AddItem("Exit");
 		Menu.FontSize = fontSize;
+		Menu.AddCallback(Gui.CALLBACK_INDEX.CLICKED, () => { if (Menu.CurrentItemText == "Exit") Engine.Quit(); });
 
 		WidgetMenuBox Team = new WidgetMenuBox();
-		Team.AddItem("Team");
+		Team.AddItem("About");
+		Team.AddCallback(Gui.CALLBACK_INDEX.CLICKED, () => { if (Menu.CurrentItemText == "About") Engine.Quit(); });
+		Team.AddItem("Manage Team");
+		Team.AddItem("Manage Personal");
+
 		Team.FontSize = fontSize;
 
 		WidgetMenuBox Tournaments = new WidgetMenuBox();
 		Tournaments.AddItem("Tournaments");
 		Tournaments.FontSize = fontSize;
 
-		WidgetMenuBox News = new WidgetMenuBox();
-		News.AddItem("News");
-		News.FontSize = fontSize;
+		WidgetMenuBox Media = new WidgetMenuBox();
+		Media.AddItem("Message");
+		Media.AddItem("Channels");
+		Media.FontSize = fontSize;
+
+		WidgetMenuBox Finance = new WidgetMenuBox();
+		Finance.AddItem("Finance");
+		Finance.FontSize = fontSize;
+
+
 
 		WidgetMenuBar topMenu = new WidgetMenuBar(0, 0);
 		topMenu.AddItem("Menu");
 		topMenu.AddItem("Team");
 		topMenu.AddItem("Tournaments");
-		topMenu.AddItem("News");
+		topMenu.AddItem("Media");
+		topMenu.AddItem("Finance");
 		topMenu.FontSize = fontSize;
 		topMenu.SetItemMenu(0, Menu);
 		topMenu.SetItemMenu(1, Team);
 		topMenu.SetItemMenu(2, Tournaments);
-		topMenu.SetItemMenu(3, News);
+		topMenu.SetItemMenu(3, Media);
+		topMenu.SetItemMenu(4, Finance);
 		gui.AddChild(topMenu, Gui.ALIGN_OVERLAP);
 	}
 

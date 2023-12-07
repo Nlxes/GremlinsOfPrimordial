@@ -24,17 +24,6 @@ public class Global : Component
 
 	private void Init()
 	{
-
-		Unigine.Console.WriteLine(nickNamesList.Count());
-		Unigine.Console.WriteLine(nickNamesList[234]);
-		// Unigine.Console.WriteLine(tournamentList.Count());
-		// Unigine.Console.WriteLine(tournamentList[234]);
-		// Unigine.Console.WriteLine(teamList.Count());
-		// Unigine.Console.WriteLine(teamList["SNiiP3Zz"]);
-		//Unigine.Console.WriteLine(currentLvl);
-
-
-
 		//shuffle
 		System.Random rand = new System.Random();
 		int n = Global.nickNamesList.Count;
@@ -47,19 +36,6 @@ public class Global : Component
 			Global.nickNamesList[n] = value;
 
 		}
-
-
-
-
-		// GetNode<Button>(_buttonTeam1).Text = Global.teamList[Global.teamList.ElementAt(110).Key].name;
-		// GetNode<Button>(_buttonTeam2).Text = Global.teamList[Global.teamList.ElementAt(1).Key].name;
-
-
-		// for (int i = 0; i < Global.teamList.Count; i++)
-		// 	GD.Print("power - " + Global.teamList[Global.teamList.ElementAt(i).Key].power);
-
-		//Global.NextEnemyTeam = team3.name;
-		//dbConnection.Close();
 	}
 }
 public partial class Team //Класс создания команды

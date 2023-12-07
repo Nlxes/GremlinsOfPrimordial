@@ -9,17 +9,17 @@ public class ChooseTeam : Component
 {
 	public Node manageMenu = null;
 
-	Gui gui = Gui.GetCurrent();
-	WidgetHPaned widgetH = new WidgetHPaned();
-	WidgetVBox teamsBox = new WidgetVBox();
-	WidgetVBox teamBox = new WidgetVBox();
-	WidgetScrollBox scrollTeams = new WidgetScrollBox();
-	WidgetListBox teamList = new WidgetListBox();
-	WidgetLabel selectedTeam = new WidgetLabel();
+
 	private void Init()
 	{
 
-
+		Gui gui = Gui.GetCurrent();
+		WidgetHPaned widgetH = new WidgetHPaned();
+		WidgetVBox teamsBox = new WidgetVBox();
+		WidgetVBox teamBox = new WidgetVBox();
+		WidgetScrollBox scrollTeams = new WidgetScrollBox();
+		WidgetListBox teamList = new WidgetListBox();
+		WidgetLabel selectedTeam = new WidgetLabel();
 
 		WidgetWindow windowTeamList = new WidgetWindow("Choose the team", 0, 0)
 		{
@@ -34,14 +34,9 @@ public class ChooseTeam : Component
 			teamList.AddItem(Global.teamList.ElementAt(i).Key);
 
 		}
-		// for (int i = 0; i < Global.nickNamesList.Count(); i++)
-		// 	nicknames.AddItem(Global.nickNamesList.ElementAt(i));
-		//teamList.SetItemData(0,"123");
-
 
 		WidgetButton enterNameBut = new WidgetButton();
 		enterNameBut = new WidgetButton(gui, "Enter");
-		//gui.AddChild(enterNameBut, Gui.ALIGN_OVERLAP);
 
 		void chosen()
 		{
@@ -70,8 +65,6 @@ public class ChooseTeam : Component
 		teamBox.AddChild(selectedTeam);
 
 
-
-		//widgetH.AddChild(scrollTeams);
 
 		//Два Вбокса ни больше ни меньше и именно вбокс
 		widgetH.AddChild(teamBox);

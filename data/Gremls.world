@@ -799,9 +799,17 @@
 		</node>
 		<node type="NodeDummy" id="440931105" enabled="0" name="ChooseTeam">
 			<properties>
-				<property parent="ab3c279e8208007f67748b3ef9bee22a32b2ee0d" guid="3c7e93172e94330995517ef7947e162e436ad302"/>
+				<property parent="ab3c279e8208007f67748b3ef9bee22a32b2ee0d" guid="3c7e93172e94330995517ef7947e162e436ad302">
+					<parameter name="manageMenu">408057499</parameter>
+				</property>
 			</properties>
 			<transform>0.999999940395 3.49243634012e-10 3.49243634012e-10 0.0 3.49243634012e-10 5.960463767e-08 -0.999999821186 0.0 -3.49243634012e-10 0.999999821186 5.960463767e-08 0.0 -4.0338504217 0.200000955364 5.46474968534 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="408057499" enabled="0" name="ManageMenu">
+			<properties>
+				<property parent="5c415a50ae5c6a09b288e3b61a1fc51bb1e060a3" guid="42cf108baf299647c2fee50d24142846643b9a1c"/>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 1.51448941968 15.0217843052 3.62305783184 1.0</transform>
 		</node>
 	</editor>
 	<console>

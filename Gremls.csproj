@@ -51,6 +51,7 @@
 		<Compile Include="data/Menu.cs"/>
 		<Compile Include="data/NewGame.cs"/>
 		<Compile Include="data/ChooseTeam.cs"/>
+		<Compile Include="data/ManageMenu.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>

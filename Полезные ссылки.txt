@@ -3,3 +3,5 @@
 Unigine.WidgetMenuBar Class - https://developer.unigine.com/ru/docs/2.17/api/library/gui/class.widgetmenubar?rlang=cs&autotranslate=ru
 
 Контейнеры - https://developer.unigine.com/en/docs/2.17/code/gui/ui/ui_containers?rlang=cpp&autotranslate=ru
+
+Работа с окнами - https://developer.unigine.com/ru/docs/2.17/api/library/gui/class.widgetwindow?rlang=cs&autotranslate=ru

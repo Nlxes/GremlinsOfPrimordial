@@ -8,20 +8,28 @@ public class ManageMenu : Component
 {
 	public int fontSize = 16;
 	Gui gui = Gui.GetCurrent();
+	WidgetWindow windowAbout = new WidgetWindow("Avout Team", 100, 100)
+	{
+		Width = 500,
+		Height = 500,
+		Moveable = true,
+		Sizeable = true
+	};
 
 	private void Init()
 	{
-        // write here code to be called on component initialization
-        WidgetWindow windowAbout = new WidgetWindow("Azazaz", 100, 100)
-        {
-            Width = 500,
-            Height = 500,
-            Moveable = true,
-            Sizeable = true
-        };
-        WidgetMenuBox Menu = new WidgetMenuBox();
-		WidgetLabel testTExt = new WidgetLabel();
+		// write here code to be called on component initialization
 
+		WidgetMenuBox Menu = new WidgetMenuBox();
+		WidgetLabel testTExt = new WidgetLabel();
+		WidgetIcon close_icon = new WidgetIcon(gui, "window_close.png");
+
+		void on_close()
+		{
+			windowAbout.RemoveChild(close_icon);
+			windowAbout.DeleteLater();
+
+		}
 		Menu.AddItem("Save");
 		Menu.AddItem("Load");
 		Menu.AddItem("Settings");
@@ -33,6 +41,11 @@ public class ManageMenu : Component
 		Team.AddItem("About");
 		//windowAbout.AddChild(testTExt);
 		Team.AddCallback(Gui.CALLBACK_INDEX.CLICKED, () => { if (Team.CurrentItemText == "About") gui.AddChild(windowAbout, Gui.ALIGN_OVERLAP); });
+		close_icon.SetPosition(10, -24);
+		close_icon.AddCallback(Gui.CALLBACK_INDEX.CLICKED, on_close);
+		windowAbout.AddChild(close_icon, Gui.ALIGN_OVERLAP | Gui.ALIGN_RIGHT | Gui.ALIGN_TOP);
+
+
 		Team.AddItem("Manage Team");
 		Team.AddItem("Manage Personal");
 
